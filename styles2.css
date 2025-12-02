@@ -1,0 +1,282 @@
+/* ------------------------------------------------------ */
+/*   ESTILO GENERAL                                       */
+/* ------------------------------------------------------ */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Onest', sans-serif;
+  background: #FFF7F3;
+  color: #222;
+}
+
+h1, h2, h3 {
+  font-weight: 400;
+  margin: 0;
+}
+
+.highlight {
+  color: #FF6F4E;
+}
+
+.sub {
+  color: #666;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.desc {
+  max-width: 580px;
+  margin: 15px auto;
+  text-align: center;
+  color: #555;
+  line-height: 1.4;
+}
+
+img {
+  user-select: none;
+}
+
+
+/* ------------------------------------------------------ */
+/*   INTRO (FOTO + PRESENTACIÓN)                          */
+/* ------------------------------------------------------ */
+
+.intro {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.perfil {
+  width: 165px;
+  height: 165px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 25px;
+}
+
+.intro h1 {
+  font-size: 38px;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+
+/* ------------------------------------------------------ */
+/*   SOBRE MI (TARJETAS)                                  */
+/* ------------------------------------------------------ */
+
+.sobre-mi {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.sub2 {
+  color: #777;
+  margin-top: 5px;
+  margin-bottom: 40px;
+  font-size: 15px;
+}
+
+.cards-row {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.card {
+  background: #FFFFFF;
+  border: 1.5px solid #E5D3C8;
+  border-radius: 20px;
+  width: 260px;
+  padding: 25px;
+  text-align: center;
+}
+
+.card h3 {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.card p {
+  margin-top: 10px;
+  color: #555;
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.icono-card {
+  width: 38px;
+  opacity: .9;
+}
+
+
+/* ------------------------------------------------------ */
+/*   CUADRO CENTRAL                                       */
+/* ------------------------------------------------------ */
+
+.cuadro-central {
+  max-width: 850px;
+  margin: 0 auto 60px auto;
+  padding: 30px 40px;
+  font-size: 15px;
+  line-height: 1.55;
+  color: #444;
+  background: #FFFFFF;
+  border: 1.5px solid #E5D3C8;
+  border-radius: 22px;
+}
+
+
+/* ------------------------------------------------------ */
+/*   HABILIDADES (3 TARJETAS GRANDES)                     */
+/* ------------------------------------------------------ */
+
+.habilidades {
+  text-align: center;
+  padding: 20px;
+}
+
+.cards-column {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.card.big {
+  width: 100%;
+  padding: 28px 32px;
+  background: #FFFFFF;
+  border: 1.5px solid #E5D3C8;
+  border-radius: 22px;
+}
+
+.card.big h3 {
+  margin-top: 8px;
+  font-size: 18px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+.tags span {
+  background: #FFE8DF;
+  padding: 6px 12px;
+  font-size: 13px;
+  border-radius: 10px;
+  color: #333;
+}
+
+
+/* ------------------------------------------------------ */
+/*   PROYECTOS (3 TARJETAS)                               */
+/* ------------------------------------------------------ */
+
+.proyectos {
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.proyectos h2 {
+  font-size: 30px;
+}
+
+.proyectos-row {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.proyecto {
+  width: 260px;
+  background: #FFFFFF;
+  border-radius: 20px;
+  padding: 16px;
+  border: 1.5px solid #E5D3C8;
+}
+
+.proyecto img {
+  width: 100%;
+  border-radius: 14px;
+}
+
+.proyecto h3 {
+  font-size: 17px;
+  margin-top: 12px;
+}
+
+.proyecto p {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #555;
+  line-height: 1.4;
+}
+
+
+/* ------------------------------------------------------ */
+/*   CONTACTO                                              */
+/* ------------------------------------------------------ */
+
+.contacto {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.contact-box {
+  max-width: 500px;
+  background: #FFFFFF;
+  padding: 30px;
+  margin: 30px auto 0 auto;
+  border: 1.5px solid #E5D3C8;
+  border-radius: 20px;
+}
+
+.contact-box h3 {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.sub3 {
+  color: #777;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 18px 0;
+}
+
+.icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.email {
+  background-color: #FFD3C4;
+  background-image: url('https://cdn-icons-png.flaticon.com/512/561/561127.png');
+}
+
+.tel {
+  background-color: #CFFFF4;
+  background-image: url('https://cdn-icons-png.flaticon.com/512/724/724664.png');
+}
