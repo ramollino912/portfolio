@@ -8,234 +8,9 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-<style>
-    body {
-        margin: 0;
-        padding: 0;
-        font-family: "Poppins", sans-serif;
-        background: #000;
-        display: flex;
-        justify-content: center;
-    }
-
-    .canvas {
-        width: 900px;
-        background-image: url("background.jpg");
-        background-size: cover;
-        background-position: top center;
-        background-repeat: no-repeat;
-        min-height: 100vh;
-        color: white;
-        padding-bottom: 80px;
-    }
-
-    .header {
-        text-align: center;
-        padding-top: 60px;
-    }
-
-    .header h1 {
-        font-size: 48px;
-        font-weight: 600;
-    }
-
-    .header h1 span {
-        color: #00ff66;
-    }
-
-    .header .subtitle {
-        margin-top: 10px;
-        font-size: 18px;
-        opacity: 0.85;
-    }
-
-    .header .desc {
-        margin-top: 20px;
-        width: 60%;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 16px;
-        opacity: 0.9;
-        line-height: 1.5;
-    }
-
-    h2 {
-        margin-top: 70px;
-        font-size: 40px;
-        font-weight: 600;
-        text-align: center;
-    }
-
-    .sub {
-        margin-top: 10px;
-        text-align: center;
-        font-size: 16px;
-        opacity: 0.85;
-    }
-
-    .triple {
-        margin-top: 40px;
-        display: flex;
-        justify-content: center;
-        gap: 25px;
-        padding: 0 40px;
-    }
-
-    .card {
-        background: white;
-        width: 250px;
-        padding: 25px;
-        border-radius: 25px;
-        color: #000;
-        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
-    }
-
-    .card-icon {
-        font-size: 40px;
-        text-align: center;
-        margin-bottom: 10px;
-        color: #00aaff;
-    }
-
-    .card-title {
-        text-align: center;
-        font-size: 18px;
-        font-weight: 600;
-        margin-bottom: 10px;
-    }
-
-    .card p {
-        font-size: 14px;
-        text-align: center;
-    }
-
-    .bigbox {
-        margin: 50px auto 0;
-        background: white;
-        color: #000;
-        width: 70%;
-        padding: 30px;
-        border-radius: 25px;
-        text-align: center;
-        font-size: 16px;
-        line-height: 1.55;
-        box-shadow: 0 10px 25px rgba(0,0,0,0.35);
-    }
-
-    .skills-grid {
-        margin-top: 50px;
-        display: flex;
-        flex-direction: column;
-        gap: 35px;
-        align-items: center;
-        width: 100%;
-    }
-
-    .skill-box {
-        background: white;
-        width: 70%;
-        padding: 25px;
-        border-radius: 25px;
-        color: #000;
-        text-align: center;
-        box-shadow: 0 10px 25px rgba(0,0,0,0.35);
-    }
-
-    .skill-box.small {
-        width: 40%;
-    }
-
-    .skill-title {
-        font-size: 18px;
-        font-weight: 600;
-        margin-bottom: 10px;
-    }
-
-    .tags {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 10px;
-        margin-top: 15px;
-    }
-
-    .tag {
-        background: #f0f0f0;
-        padding: 6px 14px;
-        border-radius: 12px;
-        font-size: 14px;
-    }
-
-    .proj-row {
-        margin-top: 50px;
-        display: flex;
-        justify-content: center;
-        gap: 30px;
-        padding: 0 40px;
-    }
-
-    .project {
-        background: white;
-        width: 220px;
-        padding: 25px;
-        border-radius: 25px;
-        text-align: center;
-        color: #000;
-        font-size: 14px;
-        box-shadow: 0 10px 25px rgba(0,0,0,0.35);
-    }
-
-    .proj-icon img {
-        width: 80px;
-        height: 80px;
-        object-fit: contain;
-        border-radius: 15px;
-        display: block;
-        margin: auto;
-    }
-
-    .project-title {
-        margin-top: 15px;
-        font-size: 18px;
-        font-weight: 600;
-    }
-
-    .contact-title {
-        margin-top: 100px;
-        font-size: 40px;
-        text-align: center;
-    }
-
-    .contact-sub {
-        margin-top: 10px;
-        text-align: center;
-        font-size: 16px;
-        opacity: 0.85;
-    }
-
-    .contact-box {
-        margin: 40px auto 0;
-        width: 60%;
-        background: white;
-        color: #000;
-        padding: 25px;
-        border-radius: 25px;
-        box-shadow: 0 10px 25px rgba(0,0,0,0.35);
-        text-align: center;
-    }
-
-    .contact-box h3 {
-        font-size: 20px;
-        font-weight: 600;
-    }
-
-    .contact-box p {
-        margin-top: 12px;
-        font-size: 14px;
-    }
-
-</style>
+<link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
 <div class="canvas">
@@ -256,29 +31,29 @@
 
         <div class="card">
             <div class="card-icon">📘</div>
-            <div class="card-title">Educacion</div>
-            <p>Actualmentente cursando el secundario con muy buenas notas y mucha participacion en clase.</p>
+            <div class="card-title">Educación</div>
+            <p>Actualmentente cursando el secundario con muy buenas notas y mucha participación en clase.</p>
         </div>
 
         <div class="card">
             <div class="card-icon">🎯</div>
             <div class="card-title">Objetivos</div>
-            <p>Desarrollar habilidades profecionales y ganar experiencia en el mundo laboral.</p>
+            <p>Desarrollar habilidades profesionales y ganar experiencia en el mundo laboral.</p>
         </div>
 
         <div class="card">
             <div class="card-icon">💙</div>
-            <div class="card-title">Paciones</div>
-            <p>Tegnologia, aprender, trabajo en equipo y resolver problemas.</p>
+            <div class="card-title">Pasiones</div>
+            <p>Tecnología, aprender, trabajo en equipo y resolver problemas.</p>
         </div>
 
     </div>
 
     <div class="bigbox">
-        Soy un estudiante motivado y responsable con gran interes 
-        en aprender y crecer profecionalmente. Me caracterizo por 
+        Soy un estudiante motivado y responsable con gran interés 
+        en aprender y crecer profesionalmente. Me caracterizo por 
         mi actitud y mi compromiso en cada proyecto que realizo. 
-        Busco oportunidades que me permitan aplicar lo que se y 
+        Busco oportunidades que me permitan aplicar lo que sé y 
         aprender nuevas habilidades.
     </div>
 
@@ -320,7 +95,7 @@
     </div>
 
     <h2>Proyectos y Experiências</h2>
-    <p class="sub">Algunos de mis trabajos y logros mas importantes</p>
+    <p class="sub">Algunos de mis trabajos y logros más importantes</p>
 
     <div class="proj-row">
 
@@ -345,17 +120,17 @@
                 <img src="wallet-simulator.png" alt="Wallet Simulator">
             </div>
             <div class="project-title">Wallet Simulator</div>
-            <p>Ultimo proyecto de la especialidad, encargado del UX/UI</p>
+            <p>Último proyecto de la especialidad, encargado del UX/UI</p>
         </div>
 
     </div>
 
     <h2 class="contact-title">Contacto</h2>
-    <p class="contact-sub">¿Tenes alguna pregunta? No dudes en contactarme</p>
+    <p class="contact-sub">¿Tenés alguna pregunta? No dudes en contactarme</p>
 
     <div class="contact-box">
         <h3>Información de contacto</h3>
-        <p>Podes contactarme a traves de estos medios</p>
+        <p>Puedes contactarme a través de estos medios</p>
 
         <p>📧 Email: 48242726@est.ort.edu.ar</p>
         <p>📞 Teléfono: +54 9 11 4564-3212</p>
